@@ -2,9 +2,7 @@ message(STATUS "SplineDrivenImageSlicer: Building as a Remote VTK module")
 
 set(Module_SRCS
   vtkFrenetSerretFrame.cxx
-  vtkSplineDrivenImageSlicer.cxx
-  CBCTFrenetSerretFrame.cxx
-  CBCTSplineDrivenImageSlicer.cxx   
+  vtkSplineDrivenImageSlicer.cxx 
 )
 
 if (VTK_VERSION VERSION_LESS "8.90.0")
